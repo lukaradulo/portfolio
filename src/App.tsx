@@ -1,10 +1,13 @@
 import React from 'react';
-import './App.css';
+import Content from './components/Content';
+import Navbar from './components/Navbar';
+import './styles.scss';
 
 const App: React.FC = () => {
   return (
-    <div className="App">
-      Hello World!
+    <div className="app">
+      <Navbar />
+      <Content />
     </div>
   );
 }
