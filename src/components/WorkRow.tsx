@@ -24,7 +24,7 @@ const WorkRow: React.FC<RowProps> = ({title, description, buttonText, href, src}
       </div>
 
       <div className="image-container">
-        <img src={src} alt="project example" />
+        <img src={src} alt="project" />
       </div>
     </div>
   );
