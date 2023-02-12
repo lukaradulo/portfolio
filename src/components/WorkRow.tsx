@@ -5,19 +5,26 @@ interface RowProps {
   description: string;
   buttonText: string;
   href: string;
+  src: string;
 }
 
-const WorkRow: React.FC<RowProps> = ({title, description, buttonText, href}: RowProps) => {
+const WorkRow: React.FC<RowProps> = ({title, description, buttonText, href, src}: RowProps) => {
   return (
-    <div className="row">
-      <div className="left">
-        <h2>{title}</h2>
-        <p>{description}</p>
+    <div className="container">
+      <div className="row">
+        <div className="left">
+          <h2>{title}</h2>
+          <p>{description}</p>
+        </div>
+        <div className="button-container">
+          <a href={href} target="_blank">
+            <button>{buttonText}</button>
+          </a>
+        </div>
       </div>
-      <div className="button-container">
-        <a href={href} target="_blank">
-          <button>{buttonText}</button>
-        </a>
+
+      <div className="image-container">
+        <img src={src}/>
       </div>
     </div>
   );
