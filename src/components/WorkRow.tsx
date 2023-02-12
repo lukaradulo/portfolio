@@ -17,14 +17,14 @@ const WorkRow: React.FC<RowProps> = ({title, description, buttonText, href, src}
           <p>{description}</p>
         </div>
         <div className="button-container">
-          <a href={href} target="_blank">
+          <a href={href} target="_blank" rel="noreferrer">
             <button>{buttonText}</button>
           </a>
         </div>
       </div>
 
       <div className="image-container">
-        <img src={src}/>
+        <img src={src} alt="project example" />
       </div>
     </div>
   );
