@@ -114,42 +114,103 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+
+        .exit {
+          margin: 16px 16px 0 0;
+        }
+  
+        h1 {
+          margin-top: 36px;
+        }
       }
 
-      .exit {
-        margin: 16px 16px 0 0;
+      .about-and-contact {
+        .text {
+          padding-right: 36px;
+          line-height: 1.5em;
+        }
+  
+        a {
+          width: fit-content;
+        }
+  
+        .button-container {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          margin-top: 26px;
+          text-decoration: none;
+        }
+  
+        button {
+          cursor: pointer;
+          border: #682500 solid 3px;
+          border-radius: 7px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+          
+          padding: 8px 24px;
+          font-size: 16px;
+          color: rgb(32, 32, 32);
+  
+          transition: 0.2s;
+        }
+  
+        button:hover {
+          font-size: 20px;
+        }
       }
 
-      h1 {
-        margin-top: 36px;
-      }
-
-      .text {
-        padding-right: 36px;
-      }
-
-      .button-container {
-        width: 100%;
+      .work {
         display: flex;
-        justify-content: center;
-        margin-top: 26px;
-      }
+        flex-direction: column;
+        gap: 16px;
 
-      button {
-        cursor: pointer;
-        border: #682500 solid 3px;
-        border-radius: 7px;
-        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-        
-        padding: 8px 24px;
-        font-size: 16px;
-        color: rgb(32, 32, 32);
+        .row {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+          margin-right: 36px;
 
-        transition: 0.2s;
-      }
+          .left {
+            width: 65%;
 
-      button:hover {
-        font-size: 20px;
+            h2 {
+              font-weight: 400;
+              margin-bottom: 0;
+            }
+
+            p {
+              font-size: 13px;
+              color: #a1958c;
+            }
+          }
+
+          .button-container {
+            text-decoration: none;
+
+            a {
+              width: fit-content;
+            }
+      
+            button {
+              cursor: pointer;
+              border: #682500 solid 3px;
+              border-radius: 7px;
+              box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+              
+              padding: 8px 18px;
+              font-size: 14px;
+              color: rgb(32, 32, 32);
+      
+              transition: 0.2s;
+            }
+      
+            button:hover {
+              font-size: 16px;
+            }
+          }
+        }
       }
     }
   }
