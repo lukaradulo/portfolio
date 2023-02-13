@@ -37,6 +37,7 @@ const Content: React.FC = () => {
         <Popup 
           title={'What I\'ve done:'} 
           content={3}
+          buttonText='download resume'
           parentCallback = {callbackFunction}
         /> 
       );
