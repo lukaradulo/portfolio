@@ -20,9 +20,9 @@ const Popup: React.FC<PopupProps> = ({title, content, buttonText, parentCallback
       return (
         <div className="about-and-contact">
           <p className="text">
-          I am an individual that enjoys reading and working on video games that have the potential to innovate and improve the video game industry. After working through several IT disciplines, I became particularly interested in Game Design as it provides an abundance of challenging, logical problems that I enjoy solving.<br/><br/>
-          I prefer to keep learning, continue challenging myself, and do interesting things that matter. Almost every part of video game development is fun to me, and I find myself very fortunate to be able to call this my job.<br/><br/>
-          You can read more about me and my experience, skills, education, and much more in the PDF attached below:
+          Throughout my experience within several IT disciplines and more, I have discovered a passion for Game Design and the position’s potential to innovate and improve the video game industry. Through its abundance of challenging problem solving and keeping up with the ever-changing industry, I hope to keep contributing to gaming’s impressive growth!<br/><br/>
+          I love learning, discovering new perspectives and contributing to things that truly matter. Video game development is as exciting as it is demanding and seeing the worlds I imagine come to life is truly a privilege. I find myself very fortunate to be able to call it my job.<br/><br/>
+          Read more about who I am, my experience, skills, education, as well as my game Quiet Thoughts in the PDF attached below:
           </p>
 
           <div className="button-container">
@@ -36,9 +36,9 @@ const Popup: React.FC<PopupProps> = ({title, content, buttonText, parentCallback
       return (
         <div className="about-and-contact">
           <p className="text">
-            I'm seeking out opportunities to collaborate with studios / individuals, and make the best video game possible. I want to bring my collective design and development experience to the table where we can work together to create the best experience for your target player base.<br/><br/>
-            I thrive in an open-minded environment where the focus is on innovation and creation of an experience which players will remember for years. If you have that then I believe we'd be a great fit!<br/><br/>
-            Feel free to reach out through my email down below:
+            I am seeking out opportunities to collaborate with studios or individuals in making the best video game possible. I want to bring my collective design and development experience to our project so we can achieve the best possible results for our target player base.<br/><br/>
+            Let’s create something unforgettable together!<br/><br/>
+            Feel free to reach out through my e -mail down below:
           </p>
 
           <div className="button-container">
