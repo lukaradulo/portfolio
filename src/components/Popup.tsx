@@ -52,7 +52,7 @@ const Popup: React.FC<PopupProps> = ({title, content, buttonText, parentCallback
       return (
         <div className="work">
           <WorkRow title={"Quiet Thoughts"} description={"Led a team of 5+ people to create and publish a game"} buttonText={"To Steam"} href={"https://store.steampowered.com/app/1514620/Quiet_Thoughts/"} src={"banner.png"} />
-          <WorkRow title={"Super Mario Maker 2"} description={"Created a level to showcase my level design skills"} buttonText={"To itch.io"} href={"https://lukaradulo.itch.io/lukas-mario-level"} src=""/>
+          <WorkRow title={"Jumpin' Around"} description={"Created a Super Mario Maker 2 level to showcase my level design skills"} buttonText={"To itch.io"} href={"https://lukaradulo.itch.io/lukas-mario-level"} src="mario-level.JPG"/>
           <WorkRow title={"Unity Demo"} description={"Created a demo in Unity to further improve game engine and programming skills"} buttonText={"To itch.io"} href={"https://lukaradulo.itch.io/lukas-playable"} src={"playable.png"}/>
           <div className="button-container">
             <a href="luka-resume.pdf" download="luka-resume.pdf">
