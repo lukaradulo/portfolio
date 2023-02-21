@@ -38,7 +38,7 @@ const Popup: React.FC<PopupProps> = ({title, content, buttonText, parentCallback
           <p className="text">
             I am seeking out opportunities to collaborate with studios or individuals in making the best video game possible. I want to bring my collective design and development experience to our project so we can achieve the best possible results for our target player base.<br/><br/>
             Let’s create something unforgettable together!<br/><br/>
-            Feel free to reach out through my e -mail down below:
+            Feel free to reach out through my e-mail down below:
           </p>
 
           <div className="button-container">
