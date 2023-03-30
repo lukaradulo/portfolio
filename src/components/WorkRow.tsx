@@ -6,9 +6,10 @@ interface RowProps {
   buttonText: string;
   href: string;
   src: string;
+  hasButton: boolean;
 }
 
-const WorkRow: React.FC<RowProps> = ({title, description, buttonText, href, src}: RowProps) => {
+const WorkRow: React.FC<RowProps> = ({title, description, buttonText, href, src, hasButton}: RowProps) => {
   return (
     <div className="container">
       <div className="row">
@@ -16,11 +17,15 @@ const WorkRow: React.FC<RowProps> = ({title, description, buttonText, href, src}
           <h2>{title}</h2>
           <p>{description}</p>
         </div>
-        <div className="button-container">
-          <a href={href} target="_blank" rel="noreferrer">
-            <button>{buttonText}</button>
-          </a>
-        </div>
+        {
+          hasButton ?
+          <div className="button-container">
+            <a href={href} target="_blank" rel="noreferrer">
+              <button>{buttonText}</button>
+            </a>
+          </div>
+          : <></>
+        }
       </div>
 
       <div className="image-container">

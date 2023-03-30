@@ -51,9 +51,10 @@ const Popup: React.FC<PopupProps> = ({title, content, buttonText, parentCallback
     } else if (content === 3) {
       return (
         <div className="work">
-          <WorkRow title={"Quiet Thoughts"} description={"Led a team of 5+ people to create and publish a game"} buttonText={"To Steam"} href={"https://store.steampowered.com/app/1514620/Quiet_Thoughts/"} src={"banner.png"} />
-          <WorkRow title={"Jumpin' Around"} description={"Created a Super Mario Maker 2 level to showcase my level design skills"} buttonText={"To itch.io"} href={"https://lukaradulo.itch.io/lukas-mario-level"} src="mario-level.JPG"/>
-          <WorkRow title={"Unity Demo"} description={"Created a demo in Unity to further improve game engine and programming skills"} buttonText={"To itch.io"} href={"https://lukaradulo.itch.io/lukas-playable"} src={"playable.png"}/>
+          <WorkRow title={"Quiet Thoughts"} description={"Led a team of 5+ people to create and publish a game"} buttonText={"To Steam"} href={"https://store.steampowered.com/app/1514620/Quiet_Thoughts/"} src={"banner.png"} hasButton={true}/>
+          <WorkRow title={"Jumpin' Around"} description={"Created a Super Mario Maker 2 level to showcase my level design skills"} buttonText={"To itch.io"} href={"https://lukaradulo.itch.io/lukas-mario-level"} src="mario-level.JPG" hasButton={true}/>
+          <WorkRow title={"Portal 2 Levels"} description={"Curently working on multiple interconnected Portal 2 levels in Hammer World Editor and the game's built-in editor - in hopes of improving my 3D First-Person game & level design"} buttonText={""} href={""} src={"portal2.png"} hasButton={false}/>
+          <WorkRow title={"Unity Demo"} description={"Created a demo in Unity to further improve game engine and programming skills"} buttonText={"To itch.io"} href={"https://lukaradulo.itch.io/lukas-playable"} src={"playable.png"} hasButton={true}/>
           <div className="button-container">
             <a href="luka-resume.pdf" download="luka-resume.pdf">
               <button>{buttonText}</button>
